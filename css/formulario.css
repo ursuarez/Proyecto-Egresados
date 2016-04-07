@@ -1,0 +1,82 @@
+input[type=text]
+{
+	width: 300px;
+	height: 30px;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.5s, border 0.5s;
+}
+
+input[type=text]:focus
+{
+	border: solid 1px #707070;
+	box-shadow: 0 0 5px 1px #2E2EFE;
+}
+
+input[type=submit]
+{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #cc0000;
+	align-content: center;
+	margin-left: 100px;
+}
+
+label
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+}
+
+h2
+{
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+}
+
+#reg
+{
+	padding: 10px;
+	margin-left: 350px;
+	align-content: center;
+	width: 800px;
+	height: auto;
+	border: 1px solid #000000;
+	background-color: #F2F2F2;
+}
+
+button
+{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #2E2EFE;
+	align-content: center;
+	margin-left: 100px;
+}
+
+body
+{
+	background-image: url("fondo.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#tabla
+{
+	width: 100%;
+}
+
+#tabla th, #tabla td, #tabla tr
+{
+	border: solid 1px #000000;
+	border-collapse: collapse;
+	padding: 10px;
+}
